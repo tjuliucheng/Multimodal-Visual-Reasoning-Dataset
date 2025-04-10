@@ -44,6 +44,7 @@ Based on the existing COD10K dataset, this extension adds structured annotations
   - Pixel-wise segmentation masks
 - **Position Relationships**:
   - *Surround*: Camouflaged object is surrounded by background
+  ![示例图片](surround.png)
   - *Surface*: Camouflaged object lies on the surface of background
   - *Beside*: Camouflaged object is adjacent to background
   - *Inside*: Camouflaged object is partially or fully embedded within background
