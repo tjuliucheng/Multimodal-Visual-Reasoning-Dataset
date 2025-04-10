@@ -1,3 +1,4 @@
+
 # Multimodal Visual Reasoning Dataset (MVR)
 
 This dataset focuses on object detection and reasoning in complex environments. It includes an **Artificial Camouflage Dataset** (Visible/Infrared modalities) and a **Natural Biological Camouflage Dataset** (Image/Text modalities). It aims to advance research in cross-modal fusion, camouflaged object detection, and explainable reasoning. Future extensions will incorporate clue-chain-based deep reasoning tasks.
@@ -9,21 +10,35 @@ This dataset is constructed using customized metal models and camouflage materia
 ### Dataset Overview
 
 - **Image Pairs**: 1,500 spatially aligned visible-infrared image pairs.
+
 - **Annotations**: Pixel-wise segmentation masks.
+
 - **Camouflage Types**:  
   - *Plant Camouflage*: Vehicles hidden by natural vegetation  
   - *Camouflage Net*: Vehicles covered by camouflage nets  
   - *Camouflage Suit*: People wearing camouffage suit
+  
 - **Camouflage Challenges**: The dataset includes nine challenge factors, considering illumination, object class, size, count, and spatial complexity:
   - BCO: Big Camouflaged Object
+  
   - SCO: Small Camouflaged Object
+  
   - MCO: Multiple Camouflaged Objects
+  
   - CB: Center Bias
+  
   - OV: Out of View
+  
   - OC: Occlusions
+  
   - TC: Thermal Crossover
+  
   - IC: Image Clutter
+  
   - LI: Low Illumination
+  
+
+![challenge](/example/challenge.png)
 
 ### Directory Structure
 
@@ -39,16 +54,25 @@ Based on the existing COD10K dataset, this extension adds structured annotations
 ### Dataset Overview
 
 - **Image-Text Pairs**: 5,066 natural camouflage images (plants/animals) with spatial relationship descriptions (e.g., *"The octopus is on the coral reef surface"*).
+
 - **Annotations**:  
   - Structured spatial relationship tags  
   - Pixel-wise segmentation masks
+  
 - **Position Relationships**:
-  - *Surround*: Camouflaged object is surrounded by background
-  ![示例图片](surround.png)
+  
+  - *Surround*: Camouflaged object is surrounded by background 
+  
   - *Surface*: Camouflaged object lies on the surface of background
+  
   - *Beside*: Camouflaged object is adjacent to background
+  
   - *Inside*: Camouflaged object is partially or fully embedded within background
+  
   - *Cover*: Camouflaged object is occluded by background
+  
+
+![Position](/example/Position.png)
 
 ### Directory Structure
 
@@ -91,6 +115,6 @@ Example reasoning chain:
 
 ## Access & License
 
-To access the dataset and related resources, please visit: [GitHub or dataset hosting link here]
+To access the dataset and related resources, please visit: [VIAC](https://drive.google.com/file/d/1d25yNmitu4rFvacTJ13tiX88KYe-jc2J/view?usp=sharing)  and [NBCM](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
 
 Our dataset is free for non-commercial usage. Please contact us if you want to use it for comercial usage.
