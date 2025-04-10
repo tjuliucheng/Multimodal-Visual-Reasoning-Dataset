@@ -38,7 +38,7 @@ This dataset is constructed using customized metal models and camouflage materia
   - LI: Low Illumination
   
 
-![challenge](/example/challenge.png)
+![challenge](/assets/challenge.png)
 
 ### Directory Structure
 
@@ -72,7 +72,7 @@ Based on the existing COD10K dataset, this extension adds structured annotations
   - *Cover*: Camouflaged object is occluded by background
   
 
-![Position](/example/Position.png)
+![Position](/assets/Position.png)
 
 ### Directory Structure
 
