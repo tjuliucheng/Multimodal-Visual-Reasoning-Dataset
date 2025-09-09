@@ -5,7 +5,8 @@ This dataset focuses on object detection and reasoning in complex environments. 
 
 ## 1. Visible-Infrared Artificial Camouflage Dataset (VIAC)
 
-This dataset is constructed using customized metal models and camouflage materials. Artificial scenes were built, and synchronized aerial data was collected using DJI drones equipped with dual-mode visible and infrared cameras in complex outdoor environments. The visible images provide color-texture clues, while infrared images highlight thermal radiation differences, supporting camouflaged object detection and reasoning under challenging conditions.
+This dataset is constructed using customized metal models and camouflage materials. Artificial scenes were built, and synchronized aerial data was collected using DJI drones equipped with dual-mode visible and infrared cameras in complex outdoor environments. The visible images provide color-texture clues, while infrared images highlight thermal radiation differences, supporting camouflaged object detection and reasoning under challenging conditions. VIAC dataset is stored in [Google Drive](https://drive.google.com/file/d/1d25yNmitu4rFvacTJ13tiX88KYe-jc2J/view?usp=sharing). The relevant work on this dataset has been published. 
+**Visible-Infrared Camouflaged Object Detection**,  TCSVT 2025
 
 ### Dataset Overview
 
@@ -49,7 +50,7 @@ This dataset is constructed using customized metal models and camouflage materia
 
 ## 2. Natural Biological Camouflage Multimodal Dataset (NBCM)
 
-Based on the existing COD10K dataset, this extension adds structured annotations that describe spatial relationships between camouflaged objects and background distractors, enhancing spatial reasoning. Each image is paired with a textual description to support image-text multimodal reasoning.
+Based on the existing COD10K dataset, this extension adds structured annotations that describe spatial relationships between camouflaged objects and background distractors, enhancing spatial reasoning. Each image is paired with a textual description to support image-text multimodal reasoning. NBCM dataset is stored in [Google Drive](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
 
 ### Dataset Overview
 
@@ -112,6 +113,17 @@ Example reasoning chain:
 - Introduce visible-infrared video pairs to capture motion trajectories and thermal variations over time. This supports temporal-spatial reasoning in multimodal settings.
 
 ---
+
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@inproceedings{Liu2025visible,
+title={Visible-Infrared Camouflaged Object Detection},
+author={Liu, Cheng and Wang, Zheng and Yan, Xinyu and Sun, Meijun and Hu, Qinghua},
+booktitle={IEEE Transactions on Circuits and Systems for Video Technology},
+year={2025}
+}
+```
 
 ## Access & License
 
