@@ -120,7 +120,7 @@ Example reasoning chain:
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
-@inproceedings{Liu2025visible,
+@article{Liu2025visible,
 title={Visible-Infrared Camouflaged Object Detection},
 author={Liu, Cheng and Wang, Zheng and Yan, Xinyu and Sun, Meijun and Hu, Qinghua},
 booktitle={IEEE Transactions on Circuits and Systems for Video Technology},
