@@ -6,7 +6,10 @@ This dataset focuses on object detection and reasoning in complex environments. 
 ## 1. Visible-Infrared Artificial Camouflage Dataset (VIAC)
 
 This dataset is constructed using customized metal models and camouflage materials. Artificial scenes were built, and synchronized aerial data was collected using DJI drones equipped with dual-mode visible and infrared cameras in complex outdoor environments. The visible images provide color-texture clues, while infrared images highlight thermal radiation differences, supporting camouflaged object detection and reasoning under challenging conditions. VIAC dataset is stored in [Google Drive](https://drive.google.com/file/d/1d25yNmitu4rFvacTJ13tiX88KYe-jc2J/view?usp=sharing). The relevant work on this dataset has been published. 
-**Visible-Infrared Camouflaged Object Detection**,  TCSVT 2025
+
+### **Visible-Infrared Camouflaged Object Detection**,  TCSVT 2025
+#### Authors
+[Cheng Liu], [Zheng Wang], [Xinyu Yan], [Meijun Sun], [Qinghua Hu]
 
 ### Dataset Overview
 
