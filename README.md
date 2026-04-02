@@ -53,7 +53,7 @@ This dataset is constructed using customized metal models and camouflage materia
 
 ## 2. Enhanced Visible-Infrared Artificial Camouflage Dataset (EVIAC)
 
-To promote the development of camouflaged object detection in real and complex scenes, this study constructed a novel large-scale multimodal camouflage dataset EVIAC. This dataset is an extension of the VIAC dataset, integrating real artificial camouflage scenes and multi style transfer images. Combined with physical simulation technology, the scene is extended to four typical adversarial environments including snow, fog, and forest. The dataset is expanded to 6000 pairs, aiming to improve the robustness and generalization ability of the model under cross environment and cross style conditions. VIAC dataset is stored in [Google Drive](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link). The relevant work on this dataset has been accepted. 
+To promote the development of camouflaged object detection in real and complex scenes, this study constructed a novel large-scale multimodal camouflage dataset EVIAC. This dataset is an extension of the VIAC dataset, integrating real artificial camouflage scenes and multi style transfer images. Combined with physical simulation technology, the scene is extended to four typical adversarial environments including snow, fog, and forest. The dataset is expanded to 6000 pairs, aiming to improve the robustness and generalization ability of the model under cross environment and cross style conditions. EVIAC dataset is stored in [Google Drive](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link). The relevant work on this dataset has been accepted. 
 
 ### **[Hierarchical Cross-Modal Reasoning for Visible-Infrared Camouflaged Object Detection]**,  TMM 2026
 ### Authors
@@ -99,7 +99,7 @@ To promote the development of camouflaged object detection in real and complex s
   - `Infrared/` – Infrared images  
   - `GT/` – Segmentation masks  
 
-## 2. Natural Biological Camouflage Multimodal Dataset (NBCM)
+## 3. Natural Biological Camouflage Multimodal Dataset (NBCM)
 
 Based on the existing COD10K dataset, this extension adds structured annotations that describe spatial relationships between camouflaged objects and background distractors, enhancing spatial reasoning. Each image is paired with a textual description to support image-text multimodal reasoning. NBCM dataset is stored in [Google Drive](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
 
