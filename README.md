@@ -55,7 +55,7 @@ This dataset is constructed using customized metal models and camouflage materia
 
 To promote the development of camouflaged object detection in real and complex scenes, this study constructed a novel large-scale multimodal camouflage dataset EVIAC. This dataset is an extension of the VIAC dataset, integrating real artificial camouflage scenes and multi style transfer images. Combined with physical simulation technology, the scene is extended to four typical adversarial environments including snow, fog, and forest. The dataset is expanded to 6000 pairs, aiming to improve the robustness and generalization ability of the model under cross environment and cross style conditions. EVIAC dataset is stored in [Google Drive](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link). The relevant work on this dataset has been accepted. 
 
-### **[Hierarchical Cross-Modal Reasoning for Visible-Infrared Camouflaged Object Detection]**,  TMM 2026
+### Hierarchical Cross-Modal Reasoning for Visible-Infrared Camouflaged Object Detection,  TMM 2026
 ### Authors
 [Cheng Liu], [Zheng Wang], [Yahong Han], [Meijun Sun], [Qinghua Hu]
 
@@ -179,6 +179,6 @@ If you find our work useful in your research, please consider citing:
 
 ## Access & License
 
-To access the dataset and related resources, please visit: [VIAC](https://drive.google.com/file/d/1d25yNmitu4rFvacTJ13tiX88KYe-jc2J/view?usp=sharing)  [EVIAC](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link) and [NBCM](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
+To access the dataset and related resources, please visit: [VIAC](https://drive.google.com/file/d/1d25yNmitu4rFvacTJ13tiX88KYe-jc2J/view?usp=sharing), [EVIAC](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link) and [NBCM](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
 
 Our dataset is free for non-commercial usage. Please contact us if you want to use it for comercial usage.
