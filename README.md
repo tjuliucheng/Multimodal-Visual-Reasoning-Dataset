@@ -5,7 +5,7 @@ This dataset focuses on object detection and reasoning in complex environments. 
 
 ## 1. Visible-Infrared Artificial Camouflage Dataset (VIAC)
 
-This dataset is constructed using customized metal models and camouflage materials. Artificial scenes were built, and synchronized aerial data was collected using DJI drones equipped with dual-mode visible and infrared cameras in complex outdoor environments. The visible images provide color-texture clues, while infrared images highlight thermal radiation differences, supporting camouflaged object detection and reasoning under challenging conditions. VIAC dataset is stored in [Google Drive](https://drive.google.com/file/d/bc1qskrh34w6zzpc6js0my0ccptyqx3r0r7tydt67d_vC--/view?usp=drive_link). The relevant work on this dataset has been published. 
+This dataset is constructed using customized metal models and camouflage materials. Artificial scenes were built, and synchronized aerial data was collected using DJI drones equipped with dual-mode visible and infrared cameras in complex outdoor environments. The visible images provide color-texture clues, while infrared images highlight thermal radiation differences, supporting camouflaged object detection and reasoning under challenging conditions. VIAC dataset is stored in [Google Drive](https://drive.google.com/file/d/1OZ3ysReSM08loYzX4AT5a2fVaD3gas0j/view?usp=drive_link). The relevant work on this dataset has been published. 
 
 ### **[Visible-Infrared Camouflaged Object Detection](https://ieeexplore.ieee.org/abstract/document/11159525)**,  TCSVT 2025
 ### Authors
@@ -179,6 +179,6 @@ If you find our work useful in your research, please consider citing:
 
 ## Access & License
 
-To access the dataset and related resources, please visit: [VIAC](https://drive.google.com/file/d/bc1qskrh34w6zzpc6js0my0ccptyqx3r0r7tydt67d_vC--/view?usp=drive_link), [EVIAC](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link) and [NBCM](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
+To access the dataset and related resources, please visit: [VIAC](https://drive.google.com/file/d/1OZ3ysReSM08loYzX4AT5a2fVaD3gas0j/view?usp=drive_link), [EVIAC](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link) and [NBCM](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
 
 Our dataset is free for non-commercial usage. Please contact us if you want to use it for comercial usage.
