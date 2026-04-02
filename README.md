@@ -1,7 +1,7 @@
 
 # Multimodal Visual Reasoning Dataset (MVR)
 
-This dataset focuses on object detection and reasoning in complex environments. It includes an **Artificial Camouflage Dataset** (Visible/Infrared modalities) and a **Natural Biological Camouflage Dataset** (Image/Text modalities). It aims to advance research in cross-modal fusion, camouflaged object detection, and explainable reasoning. Future extensions will incorporate clue-chain-based deep reasoning tasks.
+This dataset focuses on object detection and reasoning in complex environments. It includes **Artificial Camouflage Dataset** (Visible/Infrared modalities) and **Natural Biological Camouflage Dataset** (Image/Text modalities). It aims to advance research in cross-modal fusion, camouflaged object detection, and explainable reasoning. Future extensions will incorporate clue-chain-based deep reasoning tasks.
 
 ## 1. Visible-Infrared Artificial Camouflage Dataset (VIAC)
 
@@ -42,7 +42,55 @@ This dataset is constructed using customized metal models and camouflage materia
   - LI: Low Illumination
   
 
-![challenge](/assets/challenge.png)
+![challenge](/assets/data1.png)
+
+### Directory Structure
+
+- Root directory contains:
+  - `Visible/` – Visible images  
+  - `Infrared/` – Infrared images  
+  - `GT/` – Segmentation masks  
+
+## 2. Enhanced Visible-Infrared Artificial Camouflage Dataset (EVIAC)
+
+To promote the development of camouflaged object detection in real and complex scenes, this study constructed a novel large-scale multimodal camouflage dataset EVIAC. This dataset is an extension of the VIAC dataset, integrating real artificial camouflage scenes and multi style transfer images. Combined with physical simulation technology, the scene is extended to four typical adversarial environments including snow, fog, and forest. The dataset is expanded to 6000 pairs, aiming to improve the robustness and generalization ability of the model under cross environment and cross style conditions. VIAC dataset is stored in [Google Drive](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link). The relevant work on this dataset has been accepted. 
+
+### **[Hierarchical Cross-Modal Reasoning for Visible-Infrared Camouflaged Object Detection]**,  TMM 2026
+### Authors
+[Cheng Liu], [Zheng Wang], [Yahong Han], [Meijun Sun], [Qinghua Hu]
+
+### Dataset Overview
+
+- **Image Pairs**: 6,000 spatially aligned visible-infrared image pairs.
+
+- **Annotations**: Pixel-wise segmentation masks.
+
+- **Camouflage Types**:  
+  - *Plant Camouflage*: Vehicles hidden by natural vegetation  
+  - *Camouflage Net*: Vehicles covered by camouflage nets  
+  - *Camouflage Suit*: People wearing camouffage suit
+  
+- **Camouflage Challenges**: The dataset includes nine challenge factors, considering illumination, object class, size, count, and spatial complexity:
+  - BCO: Big Camouflaged Object
+  
+  - SCO: Small Camouflaged Object
+  
+  - MCO: Multiple Camouflaged Objects
+  
+  - CB: Center Bias
+  
+  - OV: Out of View
+  
+  - OC: Occlusions
+  
+  - TC: Thermal Crossover
+  
+  - IC: Image Clutter
+  
+  - LI: Low Illumination
+  
+
+![challenge](/assets/data2.png)
 
 ### Directory Structure
 
@@ -131,6 +179,6 @@ If you find our work useful in your research, please consider citing:
 
 ## Access & License
 
-To access the dataset and related resources, please visit: [VIAC](https://drive.google.com/file/d/1d25yNmitu4rFvacTJ13tiX88KYe-jc2J/view?usp=sharing)  and [NBCM](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
+To access the dataset and related resources, please visit: [VIAC](https://drive.google.com/file/d/1d25yNmitu4rFvacTJ13tiX88KYe-jc2J/view?usp=sharing)  [EVIAC](https://drive.google.com/file/d/11qYl6zW7t5BGx1zWJ30dNZxCi7s8xK8S/view?usp=drive_link) and [NBCM](https://drive.google.com/file/d/1dGo2XlJ4NHaHtQRIerwmTaB2ixrNqCmP/view?usp=sharing)
 
 Our dataset is free for non-commercial usage. Please contact us if you want to use it for comercial usage.
